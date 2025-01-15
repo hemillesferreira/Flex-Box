@@ -16,6 +16,7 @@ body{
     background-color: grey;
     color: white;
     padding: 10px;
+    margin-bottom: 10px;
 
     display: flex;
     flex-flow: row wrap;
@@ -23,12 +24,10 @@ body{
     align-items: center;
  }
  header > h1{
-   border: 1px dotted black;
    flex: 0 0 200px;
  }
  header >  nav{
     color: white;
-    border: 1px dotted black;
 
     display: flex;
     flex-flow: row wrap;
@@ -49,12 +48,17 @@ body{
    color: black;
  }
 
- article{
-   text-align: center;
-    width: 80vw;
+ main{
+    margin-top: 20px;
+    text-align: justify;
     background-color: aliceblue;
+    width: 60vw;
+    height: 90vh;
+    margin: auto;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.336);
     
 
  }
+
